@@ -40,7 +40,7 @@ const VideoCard = ({ video }) => {
                                 <BsFillCheckCircleFill className="text-white/[0.5] text-[12px] ml-1" />
                             )}
                         </span>
-                        <div className="flex text-[11px] text-white/[0.7] truncate overflow-hidden">
+                        <div className="flex text-[10px] text-white/[0.7] truncate overflow-hidden">
                             <span>{`${abbreviateNumber(
                                 video?.stats?.views,
                                 2
